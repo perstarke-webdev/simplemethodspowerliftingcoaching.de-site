@@ -3,7 +3,7 @@
 version: '3'
 
 services:
-  gernotstarke-jekyll:
+  perstarke-jekyll:
     build: .
     image: smplc-site
     command: jekyll serve --trace --host 0.0.0.0 --watch --config _config.yml
