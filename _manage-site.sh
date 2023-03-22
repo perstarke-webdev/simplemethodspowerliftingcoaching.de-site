@@ -3,7 +3,7 @@
 # helper, so you don't need to remember docker-compose syntax...
 
 # what's the site?
-site="basic-homepage.de"
+site="simplemethodspowerliftingcoaching.de"
 
 # some colors to highlight certain output
 GREEN=`tput setaf 2`

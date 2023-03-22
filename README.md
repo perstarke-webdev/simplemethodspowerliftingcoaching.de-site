@@ -1,6 +1,6 @@
-# Basic homepage template
+# Simple Methods Powerlifting Coaching
 
-Repository for the website xyz
+Repository for the website simplemethodspowerliftingcoaching.de
 
 ## Credits
 
@@ -8,4 +8,4 @@ Based upon [Jekyll](https://jekyllrb.org) and the [MinimalMistakes theme](https:
 
 ## License
 This work is copyrighted - no parts of it may be copied, stored or otherwise re-used without prior written consent
-of the author [xzy](mailto:xyz)
+of the author [Hannes Harhues](mailto:hharhues@gmail.com)
