@@ -50,6 +50,16 @@ div.grid-container {
     top: 0;
     left: 0
 }
+
+.view .mask-blue, .view .content {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+
 .view img {
     display: block;
     position: relative
@@ -70,7 +80,9 @@ div.grid-container {
     font-size: 17px;
     position: relative;
     color: #fff;
-    padding: 10px 20px 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 40px;
     text-align: center
 }
 .view a.info {
@@ -94,6 +106,13 @@ div.grid-container {
     background-color: rgba(150, 0, 0, 0.7);
     transition: all 0.4s ease-in-out;
 }
+
+.view-first .mask-blue {
+    opacity: 0;
+    background-color: rgba(0, 0, 150, 0.7);
+    transition: all 0.4s ease-in-out;
+}
+
 .view-first h2 {
     transform: translateY(-100px);
     opacity: 0;
@@ -115,6 +134,11 @@ div.grid-container {
 .view-first:hover .mask {
 	opacity: 1;
 }
+
+.view-first:hover .mask-blue {
+	opacity: 1;
+}
+
 .view-first:hover h2,
 .view-first:hover p,
 .view-first:hover a.info {
