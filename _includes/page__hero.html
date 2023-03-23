@@ -43,7 +43,8 @@
         <p>
             {% for action in page.header.actions %}
             {% if action.url == "https://www.instagram.com/hannes.smplc/" %}
-            <a href="{{ action.url | relative_url }}" class="">{{ action.label }}</a>
+            <a rel="noopener noreferrer nofollow"
+               target="_blank" href="{{ action.url | relative_url }}" class="">{{ action.label }}</a>
             {% else %}
                 <a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
             {% endif %}

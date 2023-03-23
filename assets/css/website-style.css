@@ -10,6 +10,13 @@
     transition: all 0.2s linear;
 }
 
+
+
+
+/**
+Styling for hovered images
+*/
+
 img.max300 {
     max-width: 300px;
 }
@@ -151,3 +158,4 @@ div.grid-container {
 .view-first:hover a.info {
     transition-delay: 0.2s;
 }
+
