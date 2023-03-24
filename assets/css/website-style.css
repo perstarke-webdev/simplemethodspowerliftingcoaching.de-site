@@ -1,10 +1,31 @@
 /* special styles for smplc website */
 
+.center {
+    text-align: center;
+}
+
+li.no-bullet{
+     list-style-type: none
+}
+
+.contact-icons {
+    font-size: 2em;
+}
+
 .instagram {
     color: #FF033E;
 }
 
 .instagram:hover {
+    transform: scale(1.5);
+    transition: all 0.2s linear;
+}
+
+.mail {
+    color: blue;
+}
+
+.mail:hover {
     transform: scale(1.5);
     transition: all 0.2s linear;
 }
