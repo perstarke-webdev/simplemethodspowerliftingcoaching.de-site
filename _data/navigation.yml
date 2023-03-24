@@ -2,7 +2,14 @@
 main:
   - title: "Home"
     url: /
-  - title: "Impressum"
-    url: /imprint
+  - title: "Coaches"
+    url: /coaches
+  - title: "Testimonials"
+    url: /testimonials
+  - title: "Coaching-Fragebogen"
+    url: /questionaire
+  - title: "Kontakt"
+    url: /contact
+
 
 

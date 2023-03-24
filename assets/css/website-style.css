@@ -1,27 +1,19 @@
 /* special styles for smplc website */
 
 .instagram {
-    color: #FF00BF;
+    color: red;
 }
 
 .instagram:hover {
-    color: red;
+    color: #FF00BF;
     transform: scale(1.5);
     transition: all 0.2s linear;
 }
 
 .home-title {
     color: red;
-}
-
-@media (min-width: 900px){
-    .home-title {
-        color: white;
-        background-color: rgba(255, 0, 0, 0.5);
-        border-radius: 5px;
-        padding: 8px;
-        border: 2px solid black;
-    }
+    display: inline-block;
+    white-space: nowrap;
 }
 
 
