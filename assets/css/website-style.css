@@ -169,3 +169,14 @@ div.grid-container {
     transition-delay: 0.2s;
 }
 
+
+
+
+/**
+Styling for masthead
+*/
+
+.my-menu-item:hover {
+    color: red !important;
+    transition: all 0.2s linear;
+}
