@@ -24,25 +24,28 @@ li.no-bullet{
     color: #FF033E;
 }
 
-.instagram:hover:before {
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: initial;
-}
+@media(hover: hover) and (pointer: fine) {
+    .instagram:hover:before {
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: initial;
+    }
 
-.instagram:hover {
-    transform: scale(1.5);
-    transition: all 0.2s linear;
+    .instagram:hover {
+        transform: scale(1.5);
+    }
 }
 
 .mail {
     color: blue;
 }
 
-.mail:hover {
-    transform: scale(1.5);
-    transition: all 0.2s linear;
+@media(hover: hover) and (pointer: fine) {
+    .mail:hover {
+        transform: scale(1.5);
+        transition: all 0.2s linear;
+    }
 }
 
 .home-title {
@@ -180,27 +183,27 @@ div.grid-container {
 	transition: all 0.2s ease-in-out;
 }
 
-.view-first:hover img {
+.view-first:hover img, .view-first:active img {
 	transform: scale(1.1);
 }
-.view-first:hover .mask {
+.view-first:hover .mask, .view-first:active .mask {
 	opacity: 1;
 }
 
-.view-first:hover .mask-blue {
+.view-first:hover .mask-blue, .view-first:active .mask-blue {
 	opacity: 1;
 }
 
-.view-first:hover h2,
-.view-first:hover p,
-.view-first:hover a.info {
+.view-first:hover h2, .view-first:active h2,
+.view-first:hover p, .view-first:active p,
+.view-first:hover a.info, .view-first:active a.info {
     opacity: 1;
     transform: translateY(0px);
 }
-.view-first:hover p {
+.view-first:hover p, .view-first:active p {
     transition-delay: 0.1s;
 }
-.view-first:hover a.info {
+.view-first:hover a.info, .view-first:active a.info {
     transition-delay: 0.2s;
 }
 
@@ -211,7 +214,7 @@ div.grid-container {
 Styling for masthead
 */
 
-.my-menu-item:hover {
+.my-menu-item:hover, .my-menu-item:active {
     color: #FF033E !important;
     transition: all 0.3s linear;
 }
