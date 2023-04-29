@@ -42,13 +42,6 @@ li.no-bullet{
 }
 
 @media(hover: hover) and (pointer: fine) {
-    .mail:hover:before {
-        background: linear-gradient(145deg, rgba(0,0,255,1) 20%, rgba(0,203,255,1) 50%, rgba(0,0,255,1) 80%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        display: initial;
-    }
-
     .mail:hover {
         transform: scale(1.5);
     }
