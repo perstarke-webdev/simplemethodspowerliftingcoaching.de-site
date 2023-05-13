@@ -8,8 +8,20 @@
     font-size: 1.7em;
 }
 
+span.main-header {
+    padding-bottom: 2px;
+    border-bottom: 1px solid #FF033E;
+}
+
 .center {
     text-align: center;
+}
+
+div.coaching-box {
+    margin: 30px;
+    padding: 20px;
+    background-color: rgba(255, 3, 62, 0.08);
+    border-radius: 5px;
 }
 
 li.no-bullet{

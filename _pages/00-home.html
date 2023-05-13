@@ -12,16 +12,38 @@ header:
 
 excerpt: "Dein Progress ist meine Leidenschaft!"
 
-feature_row:
-- title: "architecting..."
-  excerpt: "Praktische Unterstützung bei Konstruktion, Entwicklung und Dokumentation Ihrer Systeme.<br>
-(Mit-)Gründer von arc42 - dem Framework für effektive Architekturkommunikation."
-- title: "improving..."
-  excerpt: "Verbesserung, Modernisierung und Evolution bestehender Systeme"
-- title: "training..."
-  excerpt: "Mehr als 15 Jahre Erfahrung mit praxisnahen Schulungen: von Softwarearchitektur (foundation, advanced), Software-Engineering über Agilität bis zu Zeitmanagement.
-<br>Erfahrung in Konzeption spezifischer IT-Curriculae für Unternehmen, strategische Weiterbildung von IT-Personal sowie IT-Themen für Management.<br><br>
-Praxisrelevante Schulungen, direkt umsetzbare Inhalte, konkrete Tipps."
+erstgespräch:
+- title: 'Erstgespräch'
+  image_path: "/images/home/erstgespräch.webp"
+  url: "/interview"
+  image_caption: "Image from [Unsplash](https://unsplash.com/de/fotos/K8XYGbw4Ahg)"
+  btn_label: "Erstgespräch vereinbaren"
+  btn_class: "btn--primary"
+  excerpt: "Vereinbare ein Erstgespräch, damit wir uns kennelernen können."
+
+fragebogen:
+- title: 'Fragebogen'
+  image_path: "/images/home/fragebogen.webp"
+  image_caption: "Image from [Unsplash](https://unsplash.com/de/fotos/qDgTQOYk6B8)"
+  excerpt: "Gib mir noch mehr Infos über dich, indem du einen Fragebogen ausfüllst."
+
+videofeedback:
+- title: 'Videos & erstes Feedback'
+  image_path: "/images/home/videofeedback.webp"
+  image_caption: "Image from [Unsplash](https://unsplash.com/de/fotos/dS-q7-zkD9c)"
+  excerpt: "Schick mir Videos deiner Lifts, damit ich deine Beuge, deine Bank und dein Kreuzheben kennen lernen und
+    dir auch schon erstes Feedback geben kann."
 ---
 
-<h1 class="colored big-header"> Ablauf des Coachings:</h1>
+<h1 class="colored big-header center">
+  <span class="main-header">
+    Ablauf des Coachings:
+  </span>
+</h1>
+
+<div class="coaching-box">
+
+  {% include feature_row id="erstgespräch" type="left" %}
+  {% include feature_row id="fragebogen" type="right" %}
+  {% include feature_row id="videofeedback" type="left" %}
+</div>
