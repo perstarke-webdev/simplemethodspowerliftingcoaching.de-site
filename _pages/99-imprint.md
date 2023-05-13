@@ -74,5 +74,5 @@ Details dazu sind in deren [terms of service](https://formspree.io/legal/terms-o
 Der Nutzer hat das Recht, auf Antrag unentgeltlich Auskunft zu erhalten über die personenbezogenen Daten, die über ihn gespeichert wurden. Zusätzlich hat der Nutzer das Recht auf Berichtigung unrichtiger Daten, Sperrung und Löschung seiner personenbezogenen Daten, soweit dem keine gesetzliche Aufbewahrungspflicht entgegensteht.<br />
 
 #### Quelle
-Danke an Hr Rechtsanwalt Thomas Schwenke:<br>
+Danke an Rechtsanwalt Thomas Schwenke:<br>
 <a href="http://rechtsanwalt-schwenke.de/smmr-buch/datenschutz-muster-generator-fuer-webseiten-blogs-und-social-media/"><strong>Datenschutz-Muster von Rechtsanwalt Thomas Schwenke - I LAW it</strong></a>
