@@ -2,8 +2,8 @@
 main:
   - title: "Home"
     url: /
-  - title: "Coaches"
-    url: /coaches
+  - title: "About"
+    url: /about
   - title: "Testimonials"
     url: /testimonials
   - title: "Erstgespräch"
