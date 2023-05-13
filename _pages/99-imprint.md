@@ -3,23 +3,27 @@ layout: single
 title: Impressum und Datenschutz
 permalink: /imprint
 author_profile: false
+header:
+    overlay_image: /images/splash/privacy-274694-unsplash.jpg
+    caption: "[**Scott Webb**](https://unsplash.com/photos/yekGLpc3vro)"
+    overlay_filter: rgba(0, 0, 0, 0.6)
 ---
 
-#### Anbieter und Verantwortliche Person
-Per Starke, Willi-Lauf Allee 43, D-50858 Köln
+## Anbieter und Verantwortliche Person
+Hannes Harhues, Dorffeld 135, D-48308 Senden
 
 
 #### Kontakt
-Telefon: +49 160 93268817
+Telefon: +49 15237342621
 <br>
-e-Mail: per_at_starke-team.de
+e-Mail: hharhues_at_gmail.com
 <br>
 
 
 ## Datenschutzerklärung
 
 #### Geltungsbereich
-Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten durch den vorstehend genannten Anbieter Per Starke auf dieser Website (im folgenden “Angebot”) auf.<br />
+Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten durch den vorstehend genannten Anbieter Hannes Harhues auf dieser Website (im folgenden “Angebot”) auf.<br />
 <br />
 Die rechtlichen Grundlagen des Datenschutzes finden sich in der Datenschutzgrundverordnung (DSGVO), dem Bundesdatenschutzgesetz (BDSG) und dem Telemediengesetz (TMG).<br />
 <br />
@@ -61,6 +65,10 @@ erlaubt die Darstellung diverser Icon-Symbole auf unseren Seiten.
 FontAwesome nutzt anonyme Zugriffsdaten, die in deren
 [privacy policy](https://fontawesome.com/privacy) spezifiziert sind.
 <br/>
+
+#### Datenschutzerklärung für die Nutzung von Formspree
+Auf unserer Seite verwenden wir für das Kontaktformular den Service Formspree der Firma Formspree, Inc.  
+Details dazu sind in deren [terms of service](https://formspree.io/legal/terms-of-service/) spezifiziert.
 
 #### Widerruf, Änderungen, Berichtigungen und Aktualisierungen
 Der Nutzer hat das Recht, auf Antrag unentgeltlich Auskunft zu erhalten über die personenbezogenen Daten, die über ihn gespeichert wurden. Zusätzlich hat der Nutzer das Recht auf Berichtigung unrichtiger Daten, Sperrung und Löschung seiner personenbezogenen Daten, soweit dem keine gesetzliche Aufbewahrungspflicht entgegensteht.<br />
