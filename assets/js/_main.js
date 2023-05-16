@@ -174,8 +174,7 @@ window.addEventListener('scroll', scrollHandler);
 
 // Fade in elements on scroll
 
-// select all .project elements except the first one
-const projects = document.querySelectorAll(".project:not(:first-child)");
+const projects = document.querySelectorAll(".project");
 
 projects.forEach(function(project) {
   project.classList.add("hide-for-fade-in");
