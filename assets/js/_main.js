@@ -181,7 +181,7 @@ projects.forEach(function(project) {
 });
 
 projects.forEach(function(project) {
-  var scrollBottom = window.scrollY + window.innerHeight - 80;
+  var scrollBottom = window.scrollY + window.innerHeight - 30;
   window.addEventListener("scroll", function() {
     let scroll = window.scrollY;
     if (scroll > project.offsetTop - scrollBottom) {

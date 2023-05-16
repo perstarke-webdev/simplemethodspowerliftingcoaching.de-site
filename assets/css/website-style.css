@@ -264,9 +264,9 @@ Fade in elements on scroll
 
 .hide-for-fade-in {
   opacity: 0%;
-  -webkit-transition: opacity 2s;
-  -o-transition: opacity 2s;
-  transition: opacity 2s;
+  -webkit-transition: opacity 2.5s;
+  -o-transition: opacity 2.5s;
+  transition: opacity 2.5s;
 }
 
 .fade-in {
