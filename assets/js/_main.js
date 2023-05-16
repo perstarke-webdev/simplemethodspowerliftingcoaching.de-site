@@ -140,6 +140,8 @@ $(function() {
    Own js
    ========================================================================== */
 
+// Fade about-image out on scroll
+
 var header = document.getElementById('about-img');
 
 function fadeOutOnScroll(element) {
@@ -167,3 +169,24 @@ function scrollHandler() {
 }
 
 window.addEventListener('scroll', scrollHandler);
+
+
+
+// Fade in elements on scroll
+
+// select all .project elements except the first one
+const projects = document.querySelectorAll(".project:not(:first-child)");
+
+projects.forEach(function(project) {
+  project.classList.add("hide-for-fade-in");
+});
+
+projects.forEach(function(project) {
+  var scrollBottom = window.scrollY + window.innerHeight - 80;
+  window.addEventListener("scroll", function() {
+    let scroll = window.scrollY;
+    if (scroll > project.offsetTop - scrollBottom) {
+      project.classList.add("fade-in");
+    }
+  });
+});

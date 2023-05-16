@@ -255,3 +255,20 @@ Styling for masthead
     color: #FF033E !important;
     transition: all 0.3s linear;
 }
+
+
+
+/**
+Fade in elements on scroll
+*/
+
+.hide-for-fade-in {
+  opacity: 0%;
+  -webkit-transition: opacity 2s;
+  -o-transition: opacity 2s;
+  transition: opacity 2s;
+}
+
+.fade-in {
+  opacity: 100%;
+}
