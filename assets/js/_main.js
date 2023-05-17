@@ -183,7 +183,7 @@ projects.forEach(function(project) {
 projects.forEach(function(project) {
   var scrollBottom = window.scrollY + window.innerHeight - 30;
   window.addEventListener("scroll", function() {
-    let scroll = window.scrollY;
+    var scroll = window.scrollY;
     if (scroll > project.offsetTop - scrollBottom) {
       project.classList.add("fade-in");
     }
