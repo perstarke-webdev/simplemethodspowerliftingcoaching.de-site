@@ -143,6 +143,9 @@ $(function() {
 // Fade about-image out on scroll
 
 var header = document.getElementById('about-img');
+var header2 = document.getElementById('fade-elem-one');
+var header3 = document.getElementById('fade-elem-two');
+var header4 = document.getElementById('fade-elem-three');
 
 function fadeOutOnScroll(element) {
 	if (!element) {
@@ -164,28 +167,30 @@ function fadeOutOnScroll(element) {
 	}
 }
 
+// Fade in elements on scroll
+
+function isInViewport(element) {
+    const rect = element.getBoundingClientRect();
+    return (
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) + 100
+    );
+}
+
+function fadeInOnScroll(element){
+	if (!element) {
+		return;
+	}
+
+	if (isInViewport(element) === true) {
+	    element.classList.add("fade-in");
+	}
+}
+
 function scrollHandler() {
-	fadeOutOnScroll(header);
+    fadeOutOnScroll(header);
+	fadeInOnScroll(header3);
+	fadeInOnScroll(header4)
 }
 
 window.addEventListener('scroll', scrollHandler);
 
-
-
-// Fade in elements on scroll
-
-const projects = document.querySelectorAll(".project");
-
-projects.forEach(function(project) {
-  project.classList.add("hide-for-fade-in");
-});
-
-projects.forEach(function(project) {
-  var scrollBottom = window.scrollY + window.innerHeight - 30;
-  window.addEventListener("scroll", function() {
-    var scroll = window.scrollY;
-    if (scroll > project.offsetTop - scrollBottom) {
-      project.classList.add("fade-in");
-    }
-  });
-});

@@ -43,13 +43,17 @@ videofeedback:
 
 <div class="coaching-box">
 
-    {% include feature_row id="erstgespräch" type="left" %}
 
-  <span class="project">
+  <span id="fade-elem-one">
+    {% include feature_row id="erstgespräch" type="left" %}
+  </span>
+
+
+  <span id="fade-elem-two" class="hide-for-fade-in">
     {% include feature_row id="fragebogen" type="right" %}
   </span>
 
-  <span class="project">
+  <span id="fade-elem-three" class="hide-for-fade-in">
     {% include feature_row id="videofeedback" type="left" %}
   </span>
 </div>
