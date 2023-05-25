@@ -142,10 +142,7 @@ $(function() {
 
 // Fade about-image out on scroll
 
-var header = document.getElementById('about-img');
-var header2 = document.getElementById('fade-elem-one');
-var header3 = document.getElementById('fade-elem-two');
-var header4 = document.getElementById('fade-elem-three');
+var about_img = document.getElementById('about-img');
 
 function fadeOutOnScroll(element) {
 	if (!element) {
@@ -167,30 +164,36 @@ function fadeOutOnScroll(element) {
 	}
 }
 
-// Fade in elements on scroll
-
-function isInViewport(element) {
-    const rect = element.getBoundingClientRect();
-    return (
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) + 100
-    );
-}
-
-function fadeInOnScroll(element){
-	if (!element) {
-		return;
-	}
-
-	if (isInViewport(element) === true) {
-	    element.classList.add("fade-in");
-	}
-}
-
 function scrollHandler() {
-    fadeOutOnScroll(header);
-	fadeInOnScroll(header3);
-	fadeInOnScroll(header4)
+     fadeOutOnScroll(about_img);
 }
 
 window.addEventListener('scroll', scrollHandler);
+
+// Fade in elements on scroll
+
+function handleIntersection(entries, observer) {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      // Das Element ist im sichtbaren Bereich
+      entry.target.classList.add('fade-in');
+    }
+  });
+}
+
+const options = {
+  root: null,
+  rootMargin: '0px',
+  threshold: 0.5
+};
+
+const observer = new IntersectionObserver(handleIntersection, options);
+const fade_one = document.getElementById('fade-elem-one');
+const fade_two = document.getElementById('fade-elem-two');
+observer.observe(fade_one);
+observer.observe(fade_two);
+
+
+
+
 
