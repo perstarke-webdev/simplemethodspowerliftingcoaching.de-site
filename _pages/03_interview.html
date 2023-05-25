@@ -10,17 +10,17 @@ header:
 excerpt: "#Erstgespräch"
 ---
 
-<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/myyavjzp" method="post">
+<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="/thanks" method="post">
   <fieldset id="fs-frm-inputs">
     <label for="full-name">Name</label>
     <input type="text" name="name" id="full-name" placeholder="Dein Name" required="">
     <label for="email-address">Email</label>
     <input type="email" name="_replyto" id="email-address" placeholder="Deine Email Adresse"required="">
     <label for="message">Nachricht</label>
-    <textarea rows="5" name="message" id="message" placeholder="Erzähl mir ein bisschen über dich und sag mir, wann ein Gespräch zeitlich für dich möglich ist" required=""></textarea>
+    <textarea rows="5" name="message" id="message" placeholder="Erzähl uns ein bisschen über dich und sag Bescheid, wann ein Gespräch zeitlich für dich möglich ist" required=""></textarea>
     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
   </fieldset>
-  <input type="submit" value="Absenden">
+  <input type="button" value="Absenden" onclick="window.location.href='/thanks';">
 </form><style>/* reset */
 #fs-frm input,
 #fs-frm select,
