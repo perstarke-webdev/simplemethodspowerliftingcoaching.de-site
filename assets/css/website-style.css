@@ -294,19 +294,20 @@ Fade in elements on scroll
 
 .about-start-box {
     border: 2px solid #FF033E;
-    background-color: rgba(100, 1, 24, 0.2);
+    background-color: rgba(100, 1, 24, 0.1);
     border-radius: 5px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
 }
 
 .price-box {
     border: 2px solid silver;
-    background-color: rgba(192, 192, 192, 0.2);
+    background-color: rgba(192, 192, 192, 0.1);
     border-radius: 5px;
+    padding: 20px;
 }
 
 .price-heading {
     text-decoration: underline;
-    color: gray;
 }
 
