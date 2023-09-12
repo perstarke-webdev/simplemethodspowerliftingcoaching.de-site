@@ -300,10 +300,11 @@ Fade in elements on scroll
 }
 
 .price-box {
-    border: 2px solid silver;
-    background-color: rgba(192, 192, 192, 0.1);
+    font-size: 85%;
+    border: 2px solid rgba(192, 192, 192, 0.4);
+    background-color: rgba(192, 192, 192, 0.05);
     border-radius: 5px;
-    padding: 10px;
-    padding-top: 0;
+    padding: 5px;
+    padding-top: -10px;
 }
 
