@@ -281,13 +281,10 @@ Fade in elements on scroll
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 1px 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
 
-.vertical-line {
-  border-left: 1px solid #ccc; /* Hier wird die vertikale Linie erstellt */
-}
 
 .box {
   padding: 20px;
