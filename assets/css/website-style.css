@@ -292,3 +292,21 @@ Fade in elements on scroll
   text-align: center;
 }
 
+.about-start-box {
+    border: 2px solid #FF033E;
+    background-color: rgba(100, 1, 24, 0.2);
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+.price-box {
+    border: 2px solid silver;
+    background-color: rgba(192, 192, 192, 0.2);
+    border-radius: 5px;
+}
+
+.price-heading {
+    text-decoration: underline;
+    color: gray;
+}
+
