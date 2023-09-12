@@ -4,8 +4,6 @@ main:
     url: /
   - title: "Coaching-Team"
     url: /coaching-team
-  - title: "Testimonials"
-    url: /testimonials
   - title: "Erstgespräch"
     url: /interview
   - title: "Kontakt"
