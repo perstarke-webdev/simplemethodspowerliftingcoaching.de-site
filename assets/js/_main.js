@@ -143,6 +143,7 @@ $(function() {
 // Fade about-image out on scroll
 
 var about_img = document.getElementById('about-img');
+var about_img_2 = document.getElementById('about-img-2');
 
 function fadeOutOnScroll(element) {
 	if (!element) {
@@ -166,6 +167,7 @@ function fadeOutOnScroll(element) {
 
 function scrollHandler() {
      fadeOutOnScroll(about_img);
+     fadeOutOnScroll(about_img_2);
 }
 
 window.addEventListener('scroll', scrollHandler);
