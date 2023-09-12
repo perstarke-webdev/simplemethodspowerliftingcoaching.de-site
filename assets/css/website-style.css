@@ -305,5 +305,6 @@ Fade in elements on scroll
     background-color: rgba(192, 192, 192, 0.1);
     border-radius: 5px;
     padding: 10px;
+    padding-top: 0;
 }
 
