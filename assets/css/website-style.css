@@ -288,15 +288,12 @@ Fade in elements on scroll
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Two equal columns */
-  gap: 20px; /* Adjust the gap between columns */
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
-/* Optionally, you can add styles for the individual boxes if needed */
 .box {
   padding: 20px;
-  border: 1px solid #ccc;
   text-align: center;
 }
 
-/* Fügen Sie Ihre vorhandenen CSS-Klassen hier hinzu */
