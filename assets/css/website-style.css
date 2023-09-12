@@ -34,6 +34,7 @@ img.center {
     width: 80%;
 }
 
+
 img.max600 {
     max-width: 600px;
 }
@@ -307,5 +308,6 @@ Fade in elements on scroll
     border-radius: 5px;
     padding: 5px;
     padding-top: -100px;
+    margin: auto;
 }
 
