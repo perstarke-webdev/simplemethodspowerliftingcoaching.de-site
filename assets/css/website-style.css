@@ -292,12 +292,16 @@ Fade in elements on scroll
   text-align: center;
 }
 
-.about-start-box {
+.packages-start-box {
     border: 2px solid #FF033E;
     background-color: rgba(100, 1, 24, 0.1);
     border-radius: 5px;
     margin-bottom: 20px;
     padding: 15px;
+}
+
+.package-box {
+    border: 1px solid rgba(100, 1, 24, 0.2);
 }
 
 .price-box {
@@ -307,7 +311,6 @@ Fade in elements on scroll
     background-color: rgba(192, 192, 192, 0.05);
     border-radius: 5px;
     padding: 5px;
-    padding-top: -100px;
     margin: auto;
 }
 
