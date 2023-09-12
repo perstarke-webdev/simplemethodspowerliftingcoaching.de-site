@@ -3,7 +3,9 @@ main:
   - title: "Home"
     url: /
   - title: "Coaching-Team"
-    url: /coaching-team
+    url: /team
+  - title: "Coaching-Pakete"
+    url: /packages
   - title: "Erstgespräch"
     url: /interview
   - title: "Kontakt"
