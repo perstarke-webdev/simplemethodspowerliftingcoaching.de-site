@@ -306,8 +306,15 @@ Fade in elements on scroll
 
 .price-header {
     font-size: 120%;
-    border-bottom: 0.5px solid rgba(192, 192, 192, 0.4);
     padding-top: 10px;
+}
+
+hr.price-sep {
+    border-top: 1px solid rgba(192, 192, 192, 0.4);
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .price-box {
