@@ -43,7 +43,7 @@ li.no-bullet{
     font-size: 2em;
 }
 
-.instagram {
+.instagram-mobile {
     color: #FF033E;
 }
 
@@ -387,5 +387,21 @@ hr.price-sep {
   height: 100vh; /* Hier können Sie die Höhe anpassen, um das Formular im sichtbaren Bereich zu zentrieren */
 }
 
+.mail-mobile {
+    color: rgba(0, 0, 255, 1);
+}
+
+.mail-mobile:hover {
+    color: rgba(0, 0, 255, 0.8);
+}
+
+.instagram-mobile {
+    color: #FF033E;
+}
+
+
+.instagram-mobile:hover {
+    color: rgba(255, 3, 62, 0.8);
+}
 
 
