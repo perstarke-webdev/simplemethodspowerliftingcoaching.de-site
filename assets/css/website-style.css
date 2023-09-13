@@ -8,17 +8,6 @@
     font-size: 1.7em;
 }
 
-span.main-header, span.main-header-long {
-    padding-bottom: 2px;
-    border-bottom: 1px solid #FF033E;
-}
-
-@media (max-width: 920px) {
-    span.main-header-long {
-        border-bottom: 0;
-    }
-}
-
 .margin-at-bottom {
     margin-bottom: 30px;
 }
@@ -292,12 +281,20 @@ Fade in elements on scroll
   text-align: center;
 }
 
-.packages-start-box {
-    border: 2px solid rgb(0, 0, 150);
-    background-color: rgba(0, 0, 150, 0.2);
+.color-box {
     border-radius: 5px;
     margin-bottom: 30px;
     padding: 15px;
+}
+
+.blue-box {
+    border: 2px solid rgb(0, 0, 150);
+    background-color: rgba(0, 0, 150, 0.2);
+}
+
+.red-box {
+    border: 2px solid rgb(100, 1, 24);
+    background-color: rgba(100, 1, 24, 0.2);
 }
 
 .package-box {
@@ -329,3 +326,11 @@ hr.price-sep {
     margin: auto;
 }
 
+.btn-blue {
+    background-color: rgb(0, 0, 220) !important;
+    transition: background-color 0.3s ease !important;
+}
+
+.btn-blue:hover {
+    background-color: rgba(0, 0, 220, 0.8) !important;
+}
