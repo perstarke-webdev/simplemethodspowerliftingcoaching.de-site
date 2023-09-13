@@ -8,6 +8,11 @@ header:
   overlay_filter: rgba(0, 0, 0, 0.8)
 ---
 
+<script>
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+  window.location.href = "/mobile"; // URL der Mobil-Version
+}
+</script>
 
 <div class="container">
 

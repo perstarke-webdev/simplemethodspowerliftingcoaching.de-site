@@ -10,6 +10,12 @@ header:
 excerpt: "#Erstgespräch"
 ---
 
+<script>
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+  window.location.href = "/mobile"; // URL der Mobil-Version
+}
+</script>
+
 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/maygbyan" method="post">
   <fieldset id="fs-frm-inputs">
     <label for="full-name">Name</label>
