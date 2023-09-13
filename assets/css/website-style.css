@@ -334,3 +334,52 @@ hr.price-sep {
 .btn-blue:hover {
     background-color: rgba(0, 0, 220, 0.8) !important;
 }
+
+
+
+
+
+
+
+
+
+
+/* MOBILE */
+
+.hr-text {
+  line-height: 3em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: white;
+  text-align: center;
+  height: 3em;
+  margin: 100px 0;
+}
+
+.hr-text::before {
+  content: '';
+  background: linear-gradient(to right, transparent, rgb(100, 1, 24), transparent);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 5px;
+  margin-top: -3px;
+}
+
+.hr-text::after {
+  content: attr(data-content);
+  position: relative;
+  display: inline-block;
+  color: rgb(100, 1, 24);
+  padding: 0 .5em;
+  line-height: 3em;
+  background-color: rgba(255, 255, 255);
+  border-radius: 4px;
+}
+
+
+
+
+
