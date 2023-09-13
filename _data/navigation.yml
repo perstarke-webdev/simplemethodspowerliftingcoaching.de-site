@@ -11,5 +11,16 @@ main:
   - title: "Kontakt"
     url: /contact
 
+main_mobile:
+  - title: "Home"
+    url: /mobile#home
+  - title: "Coaching-Team"
+    url: /mobile#team
+  - title: "Coaching-Pakete"
+    url: /mobile#packages
+  - title: "Erstgespräch"
+    url: /mobile#interview
+  - title: "Kontakt"
+    url: /mobile#contact
 
 
