@@ -34,7 +34,11 @@ videofeedback:
     excerpt: "Du kriegst deinen ersten Plan und kannst mit dem Training durchstarten!"
 ---
 
-REDIRECT
+<script>
+if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+  window.location.href = "/"; // URL der Mobil-Version
+}
+</script>
 
 
 <!--
@@ -218,7 +222,7 @@ INTERVIEW
 
 <hr class="hr-text" data-content="Erstgespräch" id="interview">
 
-<form id="fs-frm" name="simple-contact-form-mobile" accept-charset="utf-8" action="https://formspree.io/f/maygbyan" method="post">
+<form id="fs-frm" name="simple-contact-form-mobile" accept-charset="utf-8" action="https://formspree.io/f/xzblvzop" method="post">
   <fieldset id="fs-frm-inputs">
     <label for="full-name">Name</label>
     <input type="text" name="name" id="full-name" placeholder="Dein Name" required="" class="center">
