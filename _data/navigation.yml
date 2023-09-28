@@ -1,14 +1,14 @@
 # main links
 main:
-  - title: <i class="fa fa-home"></i> Home
+  - title: Home
     url: /#home
-  - title: <i class="fa fa-user-friends"></i> Coaching-Team
+  - title: Coaching-Team
     url: /#team
-  - title: <i class="fa fa-plus-circle"></i> Coaching-Pakete
+  - title: Coaching-Pakete
     url: /#packages
-  - title: <i class="fa fa-comments"></i> Erstgespräch
+  - title: Erstgespräch
     url: /#interview
-  - title: <i class="fa fa-envelope"></i> Kontakt
+  - title: Kontakt
     url: /#contact
 
 
