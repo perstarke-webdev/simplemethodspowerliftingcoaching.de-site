@@ -1,9 +1,14 @@
+<style>
+  .masthead__menu {
+    display: flex;
+    justify-content: center;
+  }
+</style>
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <a class="site-title" href="{{ '/' | absolute_url }}">
-          <img src="/images/avatar.png" width="85px"/></a>
          <ul class="visible-links">
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
