@@ -28,6 +28,13 @@ img.max600 {
     max-width: 600px;
 }
 
+img.header-img {
+  max-width: 500px;
+  width: 80%;
+}
+
+
+
 div.coaching-box {
     margin: 30px;
     padding: 20px;
