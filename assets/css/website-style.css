@@ -295,3 +295,21 @@ cookie banner
 
 
 
+/* Masthead */
+
+.masthead__menu {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 767px) {
+    .masthead__menu {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .masthead__menu {
+        font-size: 0.6rem;
+    }
+}
