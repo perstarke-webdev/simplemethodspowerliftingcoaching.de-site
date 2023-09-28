@@ -1,26 +1,14 @@
 # main links
 main:
   - title: "Home"
-    url: /
+    url: /#home
   - title: "Coaching-Team"
-    url: /team
+    url: /#team
   - title: "Coaching-Pakete"
-    url: /packages
+    url: /#packages
   - title: "Erstgespräch"
-    url: /interview
+    url: /#interview
   - title: "Kontakt"
-    url: /contact
-
-main_mobile:
-  - title: "Home"
-    url: /mobile#home
-  - title: "Coaching-Team"
-    url: /mobile#team
-  - title: "Coaching-Pakete"
-    url: /mobile#packages
-  - title: "Erstgespräch"
-    url: /mobile#interview
-  - title: "Kontakt"
-    url: /mobile#contact
+    url: /#contact
 
 

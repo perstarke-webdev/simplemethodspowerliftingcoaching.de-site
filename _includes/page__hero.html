@@ -22,7 +22,7 @@
      style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ overlay_img_path }}');{% endif %}"
 >
     {% if page.header.overlay_color or page.header.overlay_image %}
-    <div class="wrapper">
+    <div class="wrapper center">
         <h1 id="page-title" class="page__title" itemprop="headline">
             {% if paginator and site.paginate_show_page_num %}
             {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
@@ -39,15 +39,9 @@
             {% endif %}
         </h1>
         {% if page.tagline %}
-        <p class="page__lead">{{ page.tagline | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+        <p class="center">{{ page.tagline | markdownify | remove: "<p>" | remove: "</p>" }}</p>
         {% elsif page.header.show_overlay_excerpt != false and page.excerpt %}
-        {% if page.excerpt == "#Erstgespräch" %}
-        <p class="page__lead">
-            Wenn dein Interesse an einem Coaching bei uns geweckt ist, dann vereinbare gerne ein Erstgespräch - <span class="home-title">wir freuen uns drauf!</span>
-        </p>
-        {% else %}
-        <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
-        {% endif %}
+        <p class="center">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
         {% endif %}
         {% include page__meta.html %}
         {% if page.header.cta_url %}
