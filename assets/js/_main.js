@@ -190,8 +190,10 @@ const options = {
 };
 
 const observer = new IntersectionObserver(handleIntersection, options);
+const fade_zero = document.getElementById('fade-elem-zero');
 const fade_one = document.getElementById('fade-elem-one');
 const fade_two = document.getElementById('fade-elem-two');
+observer.observe(fade_zero);
 observer.observe(fade_one);
 observer.observe(fade_two);
 
