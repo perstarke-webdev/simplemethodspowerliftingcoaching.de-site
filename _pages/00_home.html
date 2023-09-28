@@ -47,16 +47,29 @@ HOME
      target="_blank" rel="noopener noreferrer nofollow">
     Impressum & Datenschutz</a><br><br>
 
-  Bitte bestätige, dass du damit einverstanden bist.<br><br>
+  Bitte bestätige, dass du damit einverstanden bist, sowie damit, dass wir ein Zustimmungs-Cookie verwenden, das für einen Zeitraum von einem Tag gespeichert wird. Dieses Cookie ermöglicht es uns, deine Zustimmung zur Verwendung von nicht-persönlichen Daten und zur einwandfreien Funktion der Website zu speichern.<br><br>
   <button class="btn btn--primary" id="cookie-consent-btn">Einverstanden</button>
 </div>
 
+
 <!-- JavaScript-Code für den Cookie Consent-Banner -->
 <script>
-    // Funktion zum Ausblenden des Banners
-    function setCookieConsent() {
+    // Überprüfe, ob das Cookie für die Zustimmung gesetzt ist
+    if (document.cookie.indexOf('cookieConsent=1') !== -1) {
         document.getElementById('cookie-banner').style.display = 'none';
     }
+
+  // Funktion zum Ausblenden des Banners und Setzen des Zustimmungs-Cookies für einen Tag
+  function setCookieConsent() {
+      document.getElementById('cookie-banner').style.display = 'none';
+
+      // Erstelle ein Date-Objekt für das Ablaufdatum (einen Tag ab dem aktuellen Datum)
+      var expiresDate = new Date();
+      expiresDate.setDate(expiresDate.getDate() + 1);
+
+      // Setze ein Cookie, um die Zustimmung des Benutzers für einen Tag zu speichern
+      document.cookie = 'cookieConsent=1; expires=' + expiresDate.toUTCString() + '; path=/';
+  }
 
     // Event Listener für den Einverstanden-Button
     document.getElementById('cookie-consent-btn').addEventListener('click', setCookieConsent);
