@@ -33,6 +33,10 @@ img.header-img {
   width: 80%;
 }
 
+img.little-rounded {
+    border-radius: 3px;
+}
+
 
 
 div.coaching-box {
