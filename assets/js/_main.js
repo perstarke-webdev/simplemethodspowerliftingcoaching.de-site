@@ -144,6 +144,8 @@ $(function() {
 
 var about_img = document.getElementById('about-img');
 var about_img_2 = document.getElementById('about-img-2');
+var about_img_3 = document.getElementById('about-img-3');
+var about_img_4 = document.getElementById('about-img-4');
 
 function fadeOutOnScroll(element) {
 	if (!element) {
@@ -168,6 +170,8 @@ function fadeOutOnScroll(element) {
 function scrollHandler() {
      fadeOutOnScroll(about_img);
      fadeOutOnScroll(about_img_2);
+     fadeOutOnScroll(about_img_3);
+     fadeOutOnScroll(about_img_4);
 }
 
 window.addEventListener('scroll', scrollHandler);
