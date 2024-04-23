@@ -367,6 +367,16 @@ Kontaktiere uns, um ein Erstgespräch zu vereinbaren  - wir freuen uns auf deine
     <label for="instagram">Instagram (optional)</label>
     <input type="text" name="instagram" id="instagram" placeholder="Dein Instagram-Name" class="center">
 
+    <div class="form-row">
+      <label for="preferred-coach">Wunschcoach:in</label>
+      <select name="preferred-coach" id="preferred-coach" required="" class="center">
+        <option value="Hannes">Hannes</option>
+        <option value="Marwin">Marwin</option>
+        <option value="Jonah">Jonah</option>
+        <option value="Jacqueline">Jacqueline</option>
+      </select>
+    </div>
+
     <label for="message">Nachricht und sonstige Gedanken</label>
     <textarea rows="5" name="message" id="message" placeholder="Erzähl uns ein bisschen über dich und sag Bescheid, wann ein Gespräch zeitlich für dich möglich ist" required="" class="center"></textarea>
 
@@ -378,7 +388,7 @@ Kontaktiere uns, um ein Erstgespräch zu vereinbaren  - wir freuen uns auf deine
 <style>/* reset */
 
 #fs-frm label {
-  min-width: 150px; 
+  min-width: 150px;
   margin-bottom: 0.5rem;
   padding-top: .2rem;
   text-align: center !important;
@@ -483,6 +493,18 @@ Kontaktiere uns, um ein Erstgespräch zu vereinbaren  - wir freuen uns auf deine
   margin-left: auto;
   margin-right: auto;
 }
+
+#fs-frm .form-row {
+  display: block;
+  margin-bottom: -1rem;
+  width: 100%;
+  text-align: center;
+}
+
+#fs-frm select {
+  width: 100%;
+}
+
 
 
 
