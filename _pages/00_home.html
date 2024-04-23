@@ -8,7 +8,7 @@ header:
 
   actions:
     - label: <i class="fab fa-instagram contact-icons instagram"></i>
-      url: "https://www.instagram.com/hannes.smplc/"
+      url: "https://www.instagram.com/teamsimplemethods"
 
 excerpt: "Dein Progress ist unsere Leidenschaft!"
 
@@ -288,6 +288,30 @@ PACKAGES
 
 </div>
 
+<div class="box package-box margin-top">
+
+  <h1 class="colored big-header center margin-at-bottom">
+    <i class="fa fas fa-seedling"></i>
+    Nutrition Coaching von Jonah
+  </h1>
+
+  <p>
+    Den Text habe ich noch nicht deshalb erstmal Platzhalter-Message hier.<br>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+
+  <div class="price-box">
+    <p class="price-header"> <i class="fas fa-euro-sign"></i> &nbsp; Preis</p>
+    <hr class="price-sep">
+    <p>
+      Preislich liegt das Coaching hier bei 60€/Monat.
+    </p>
+  </div>
+
+</div>
+
+
+
 
 
 <!--
@@ -309,62 +333,60 @@ Kontaktiere uns, um ein Erstgespräch zu vereinbaren  - wir freuen uns auf deine
   <fieldset id="fs-frm-inputs">
     <label for="full-name">Name</label>
     <input type="text" name="name" id="full-name" placeholder="Dein Name" required="" class="center">
-    <label for="email-address">Email</label>
-    <input type="email" name="_replyto" id="email-address" placeholder="Deine Email Adresse"required="" class="center">
-    <label for="email-address" style="width: 75px;">Mobil-Nr</label>
+
+    <label for="email-address">E-Mail Adresse</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="Deine E-Mail Adresse" required="" class="center">
+
+    <label for="phone-number">Mobiltelefonnummer</label>
     <input type="tel" name="phone" id="phone-number" placeholder="Deine Telefonnummer" required="" class="center">
-    <label for="message" style="width: 83px;">Nachricht</label>
+
+    <label for="gender">Geschlecht</label>
+    <input type="text" name="gender" id="gender" placeholder="Dein Geschlecht" required="" class="center">
+
+    <label for="age">Alter</label>
+    <input type="number" name="age" id="age" placeholder="Dein Alter" required="" class="center">
+
+    <label for="height">Größe</label>
+    <input type="number" name="height" id="height" placeholder="Deine Größe in cm" required="" class="center">
+
+    <label for="weight-class">Angestrebte Gewichtsklasse und momentanes Gewicht (optional)</label>
+    <input type="text" name="weight-class" id="weight-class" placeholder="Gewichtsklasse und Gewicht" class="center">
+
+    <label for="experience">Trainingserfahrung insgesamt</label>
+    <input type="text" name="experience" id="experience" placeholder="Deine Trainingserfahrung insgesamt" required="" class="center">
+
+    <label for="powerlifting-experience">Trainingserfahrung KDK-spezifisch</label>
+    <input type="text" name="powerlifting-experience" id="powerlifting-experience" placeholder="KDK-spezifische Erfahrung" required="" class="center">
+
+    <label for="prs">PRs in Kniebeuge, Bankdrücken, Kreuzheben</label>
+    <input type="text" name="prs" id="prs" placeholder="Deine PRs in Kniebeuge, Bankdrücken, Kreuzheben" required="" class="center">
+
+    <label for="sport-importance">Wie groß ist der Stellenwert des Sports für dich?</label>
+    <input type="text" name="sport-importance" id="sport-importance" placeholder="Stellenwert des Sports" required="" class="center">
+
+    <label for="instagram">Instagram (optional)</label>
+    <input type="text" name="instagram" id="instagram" placeholder="Dein Instagram-Name" class="center">
+
+    <label for="message">Nachricht und sonstige Gedanken</label>
     <textarea rows="5" name="message" id="message" placeholder="Erzähl uns ein bisschen über dich und sag Bescheid, wann ein Gespräch zeitlich für dich möglich ist" required="" class="center"></textarea>
+
     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
   </fieldset>
   <button type="submit">Absenden</button>
-</form><style>/* reset */
-#fs-frm input,
-#fs-frm button,
-#fs-frm select,
-#fs-frm textarea,
-#fs-frm fieldset,
-#fs-frm optgroup,
-#fs-frm label,
-#fs-frm #card-element:disabled {
-  font-family: inherit;
-  font-size: 100%;
-  color: inherit;
-  border: none;
-  border-radius: 0;
-  display: block;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-}
+</form>
 
-#fs-frm {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+<style>/* reset */
 
 #fs-frm label {
-  width: 50px;
-  margin: auto;
-  text-align: center !important;
-}
-
-#fs-frm label,
-#fs-frm legend,
-#fs-frm ::placeholder {
-  color: white;
-  font-size: .825rem;
-  margin-bottom: .5rem;
+  min-width: 150px; 
+  margin-bottom: 0.5rem;
   padding-top: .2rem;
-  display: flex;
-  align-items: baseline;
+  text-align: center !important;
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: top;
 }
 
-/* border, padding, margin, width */
 #fs-frm input,
 #fs-frm button,
 #fs-frm select,
@@ -374,7 +396,9 @@ Kontaktiere uns, um ein Erstgespräch zu vereinbaren  - wir freuen uns auf deine
   background-color: rgba(255, 3, 62, 0.08);
   padding: .75em 1rem;
   margin-bottom: 1.5rem;
+  display: block;
 }
+
 #fs-frm input:focus,
 #fs-frm button:hover,
 #fs-frm select:focus,
@@ -385,64 +409,83 @@ Kontaktiere uns, um ein Erstgespräch zu vereinbaren  - wir freuen uns auf deine
   outline-color: gray;
   outline-offset: -1px;
 }
-#fs-frm [type="text"],
-#fs-frm [type="email"] {
-  width: 100%;
+
+#fs-frm input[type="text"],
+#fs-frm input[type="email"],
+#fs-frm input[type="tel"],
+#fs-frm textarea {
+  width: calc(100% - 160px);
 }
-#fs-frm [type="button"],
-#fs-frm [type="submit"],
-#fs-frm [type="reset"] {
+
+#fs-frm input[type="submit"] {
+  width: auto;
+  margin-top: 0.5rem;
+}
+
+#fs-frm ::placeholder {
+  color: rgba(255,255,255,0.7);
+  font-size: .65rem;
+}
+
+#fs-frm fieldset {
+  border: none;
+  padding: 0;
+}
+
+#fs-frm-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#fs-frm-inputs > label,
+#fs-frm-inputs > input,
+#fs-frm-inputs > textarea,
+#fs-frm-inputs > select {
+  flex: 1 1 auto;
+  margin: 0.5rem;
+}
+
+@media (max-width: 640px) {
+  #fs-frm label {
+    display: block;
+    text-align: center;
+    min-width: 100%;
+  }
+
+  #fs-frm input[type="text"],
+  #fs-frm input[type="email"],
+  #fs-frm input[type="tel"],
+  #fs-frm textarea {
+    width: 100%;
+  }
+}
+
+#fs-frm button[type="submit"] {
+  background-color: rgba(255, 3, 62, 0.08);
+  color: white;
+  padding: .75em 1rem;
+  border: 1px solid rgba(0,0,0,0.2);
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  display: block;
   width: auto;
   cursor: pointer;
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
-}
-#fs-frm [type="button"]:focus,
-#fs-frm [type="submit"]:focus,
-#fs-frm [type="reset"]:focus {
-  outline: none;
-}
-#fs-frm [type="submit"],
-#fs-frm [type="reset"] {
-  margin-bottom: 0;
-}
-#fs-frm select {
-  text-transform: none;
 }
 
-#fs-frm [type="checkbox"] {
-  -webkit-appearance: checkbox;
-  -moz-appearance: checkbox;
-  appearance: checkbox;
-  display: inline-block;
-  width: auto;
-  margin: 0 .5em 0 0 !important;
+#fs-frm button[type="submit"]:hover {
+  background-color: rgba(255, 3, 62, 0.3);
 }
 
-#fs-frm [type="radio"] {
-  -webkit-appearance: radio;
-  -moz-appearance: radio;
-  appearance: radio;
+/* Center the button in the form */
+#fs-frm button[type="submit"] {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* address, locale */
-#fs-frm fieldset.locale input[name="city"],
-#fs-frm fieldset.locale select[name="state"],
-#fs-frm fieldset.locale input[name="postal-code"] {
-  display: inline;
-}
-#fs-frm fieldset.locale input[name="city"] {
-  width: 52%;
-}
-#fs-frm fieldset.locale select[name="state"],
-#fs-frm fieldset.locale input[name="postal-code"] {
-  width: 20%;
-}
-#fs-frm fieldset.locale input[name="city"],
-#fs-frm fieldset.locale select[name="state"] {
-  margin-right: 3%;
-}
+
+
 </style>
 
 
@@ -460,10 +503,10 @@ CONTACT
 
 <div class="center">
   Du erreichst uns per Mail oder Instagram! <br>
-    <a style="text-decoration: none; margin: 20px; margin-top: 40px;" href="xmxaxixlxtxo:hxhxaxrxhxuxexsx@xgxmxaxixlx.xcxoxm" onmouseover="this.href=this.href.replace(/x/g,'');">
+    <a style="text-decoration: none; margin: 20px; margin-top: 40px;" href="maxixlxtxox:xcxoxaxcxhxixnxgx@xsxmxpxlxcx.xdxe" onmouseover="this.href=this.href.replace(/x/g,'');">
       <i class="fa fa-fw fa-envelope contact-icons mail" style="margin: 10px 0;"></i>
     </a>
-    <a style="text-decoration: none; margin: 20px; margin-top: 40px;" rel="noopener noreferrer nofollow" target="_blank" href="https://www.instagram.com/hannes.smplc/">
+    <a style="text-decoration: none; margin: 20px; margin-top: 40px;" rel="noopener noreferrer nofollow" target="_blank" href="https://www.instagram.com/teamsimplemethods">
       <i class="fab fa-instagram contact-icons instagram"></i>
     </a>
 
