@@ -296,15 +296,14 @@ PACKAGES
   </h1>
 
   <p>
-    Den Text habe ich noch nicht deshalb erstmal Platzhalter-Message hier.<br>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    Dir fällt es schwer deine Ernährung an deine Ziele anzupassen und du würdest dir zusätzliche Hilfe wünschen? Dann kannst du direkt hier ein Ernährungscoaching dazu buchen. Der Plan wird individuell auf dich und deine Bedürfnisse/Vorlieben ausgelegt und laufend angepasst, damit du den bestmöglichen Fortschritt machst ohne dir selber zu viele Gedanken machen zu müssen.
   </p>
 
   <div class="price-box">
     <p class="price-header"> <i class="fas fa-euro-sign"></i> &nbsp; Preis</p>
     <hr class="price-sep">
     <p>
-      Preislich liegt das Coaching hier bei 60€/Monat.
+      Das Nutrition Coaching liegt preislich bei 60€/Monat.
     </p>
   </div>
 
@@ -368,13 +367,15 @@ Kontaktiere uns, um ein Erstgespräch zu vereinbaren  - wir freuen uns auf deine
     <input type="text" name="instagram" id="instagram" placeholder="Dein Instagram-Name" class="center">
 
     <div class="form-row">
-      <label for="preferred-coach">Wunschcoach:in</label>
-      <select name="preferred-coach" id="preferred-coach" required="" class="center">
-        <option value="Hannes">Hannes</option>
-        <option value="Marwin">Marwin</option>
-        <option value="Jonah">Jonah</option>
-        <option value="Jacqueline">Jacqueline</option>
-      </select>
+      <label>Wunschcoach:in</label><br>
+      <input type="checkbox" name="preferred-coach[]" id="hannes" value="Hannes">
+      <label for="hannes">Hannes</label><br>
+      <input type="checkbox" name="preferred-coach[]" id="marwin" value="Marwin">
+      <label for="marwin">Marwin</label><br>
+      <input type="checkbox" name="preferred-coach[]" id="jonah" value="Jonah">
+      <label for="jonah">Jonah</label><br>
+      <input type="checkbox" name="preferred-coach[]" id="jacqueline" value="Jacqueline">
+      <label for="jacqueline">Jacqueline</label><br>
     </div>
 
     <label for="message">Nachricht und sonstige Gedanken</label>
@@ -495,14 +496,39 @@ Kontaktiere uns, um ein Erstgespräch zu vereinbaren  - wir freuen uns auf deine
 }
 
 #fs-frm .form-row {
-  display: block;
-  margin-bottom: -1rem;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
   width: 100%;
   text-align: center;
 }
 
 #fs-frm select {
   width: 100%;
+}
+
+
+#fs-frm input[type="checkbox"] + label {
+  margin-right: 10px; /* Adjust the margin between checkbox and label */
+}
+
+#fs-frm input[type="checkbox"],
+#fs-frm input[type="checkbox"] + label {
+  display: inline-block;
+  vertical-align: center;
+  background-color: rgba(255, 3, 62, 0.08); /* Apply background color */
+}
+
+#fs-frm input[type="checkbox"]:checked + label {
+  background-color: rgba(255, 3, 62, 0.2); /* Change background color when checked */
+}
+
+#fs-frm input[type="checkbox"]:hover + label {
+  background-color: rgba(255, 3, 62, 0.3); /* Change background color on hover */
+}
+
+#fs-frm input[type="checkbox"]::placeholder {
+  color: rgba(255,255,255,0.7); /* Placeholder color */
+  font-size: .65rem; /* Placeholder font size */
 }
 
 
