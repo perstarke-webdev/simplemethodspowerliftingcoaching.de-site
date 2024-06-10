@@ -236,6 +236,10 @@ hr.price-sep {
     gap: 10px;
   }
 
+  .span-two {
+    grid-column: span 1;
+  }
+
     .color-box {
         margin-bottom: 0;
     }
