@@ -142,7 +142,7 @@ boxes, box-styling and buttons
   gap: 20px;
 }
 
-.container .box:nth-child(1) {
+.span-two {
   grid-column: span 2;
 }
 
