@@ -1,11 +1,11 @@
 # main links
 main:
-  - title: Home
-    url: /#home
   - title: Coaching-Team
     url: /#team
   - title: Coaching-Pakete
     url: /#packages
+  - title: Beratungsgespräche
+    url: /#consultations
   - title: Erstgespräch
     url: /#interview
   - title: Kontakt
