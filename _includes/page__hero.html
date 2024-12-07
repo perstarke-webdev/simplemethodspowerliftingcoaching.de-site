@@ -30,7 +30,13 @@
             {% if page.title == "Simple Methods Powerlifting Coaching" %}
             <img src="/images/smplc_logo_white.webp" class="header-img" alt="Simple Methods Powerlifting Coaching (Logo)">
             {% elsif page.title == "Vereinbare ein Erstgespräch!"%}
+            <br><br>
             Vereinbare ein <span class="home-title">Erstgespräch!</span>
+            <br><br>
+            {% elsif page.title == "Vereinbare dein Beratungsgespräch!"%}
+            <br><br>
+            Vereinbare dein <span class="home-title">Beratungsgespräch!</span>
+            <br><br>
             {% else %}
             {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
             {% endif %}
