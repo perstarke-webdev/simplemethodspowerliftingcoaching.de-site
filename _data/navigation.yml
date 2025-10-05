@@ -4,10 +4,10 @@ main:
     url: /#team
   - title: Coaching-Pakete
     url: /#packages
-  - title: Beratungsgespräche
-    url: /#consultations
   - title: Erstgespräch
     url: /#interview
+  - title: Beratungsgespräche
+    url: /#consultations
   - title: Kontakt
     url: /#contact 
 
