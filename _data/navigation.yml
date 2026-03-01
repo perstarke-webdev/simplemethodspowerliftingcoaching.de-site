@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: Coaching-Team
+  - title: Dein Coach
     url: /#team
   - title: Coaching-Pakete
     url: /#packages
@@ -10,5 +10,4 @@ main:
     url: /#consultations
   - title: Kontakt
     url: /#contact 
-
 
